@@ -6,6 +6,20 @@
 - Django REST Framework 3.11+
 
 
+## How to install
+```bash
+$ django-admin startproject djano_rest_api
+$ cd djano_rest_api
+$ python manage.py startapp src
+```
+
+## Run Django application
+- Check requirements and install the required modules and api.
+```
+$ python manage.py runserver
+```
+
+
 ## API : Application Programming Interface
 ```API
 An application program interface (API) is a set of routines, protocols, and tools for building software applications.
