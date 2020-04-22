@@ -7,11 +7,15 @@
 
 
 ## How to install
-```bash
-$ django-admin startproject djano_rest_api
-$ cd djano_rest_api
-$ python manage.py startapp src
-```
+
+- $ pip install djangorestframework
+
+<u> Creation of project and app </u>
+
+- $ django-admin startproject djano_rest_api
+- $ cd djano_rest_api
+- $ python manage.py startapp src
+<hr>
 
 ## Run Django application
 - Check requirements and install the required modules and api.
