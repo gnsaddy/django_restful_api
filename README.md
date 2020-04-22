@@ -38,7 +38,8 @@ ensure interoperability.
 - Django REST framework is a powerful and flexible toolkit for building Web APIs.
 
 ```Intro
-In a RESTful API, endpoints (URLs) define the structure of the API and how end users access data from our application using the HTTP methods:
+In a RESTful API, endpoints (URLs) define the structure of the API and how end users access data from our application 
+using the HTTP methods:
 GET, POST, PUT, DELETE. Endpoints should be logically organized around collections and elements, 
 both of which are resources. In our case, we have one single resource, posts, 
 so we will use the following URLS - /posts/ and /posts/<id> for collections and elements, respectively.
