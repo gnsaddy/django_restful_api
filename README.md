@@ -34,8 +34,20 @@ ensure interoperability.
 ## Source: [Wikipedia API](https://en.wikipedia.org/wiki/Application_programming_interface)
 
 ## REST Framework
-- It describe an architecture which stands for Representational State Transfer
+- It describe an architecture which stands for Representational State Transfer.
+- Django REST framework is a powerful and flexible toolkit for building Web APIs.
 
+```Intro
+In a RESTful API, endpoints (URLs) define the structure of the API and how end users access data from our application using the HTTP methods:
+GET, POST, PUT, DELETE. Endpoints should be logically organized around collections and elements, 
+both of which are resources. In our case, we have one single resource, posts, 
+so we will use the following URLS - /posts/ and /posts/<id> for collections and elements, respectively.
+```
+
+|        | GET  | POST | PUT | Delete |
+| ------ | ------------- | ------------- | --------| --------|
+| /posts/ | Show all posts | Add new post | Update all posts | Delete all posts |
+| /posts/\<id> | Show \<id>  | N/A  | 	Update \<id> | Delete \<id> |
 
 #
 ```
