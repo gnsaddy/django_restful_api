@@ -71,13 +71,26 @@ An API returns a JSON, which is common format.
 
 ```
 
-
-
-
-
-
-#
+## Model Serializer
+```serializer
+DRF’s Serializers convert model instances to Python dictionaires, which can then be rendered in
+ various API appropriate formats - like JSON or XML. Similar to the Django ModelForm class, DRF 
+comes with a concise format for its Serializers, the ModelSerializer class. It’s simple to use.
 ```
+
+```Python```
+```
+from rest_framework import serializers
+from talk.models import Post
+
+
+class PostSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Post
+        fields = ('id', 'author', 'text', 'created', 'updated')
+
+=> Save this as serializers.py within the “src” directory.
 
 ```
 
