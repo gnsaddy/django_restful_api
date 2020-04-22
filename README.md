@@ -34,6 +34,9 @@ designed based on an industry standard to ensure interoperability.
 ```
 ## Source: [Wikipedia API](https://en.wikipedia.org/wiki/Application_programming_interface)
 
+## REST Framework
+- It describe an architecture which stands for Representational State Transfer
+
 
 #
 ```
