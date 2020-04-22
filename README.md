@@ -45,10 +45,32 @@ both of which are resources. In our case, we have one single resource, posts,
 so we will use the following URLS - /posts/ and /posts/<id> for collections and elements, respectively.
 ```
 
+<hr>
+
 |        | GET  | POST | PUT | Delete |
 | ------ | ------------- | ------------- | --------| --------|
 | /posts/ | Show all posts | Add new post | Update all posts | Delete all posts |
 | /posts/\<id> | Show \<id>  | N/A  | 	Update \<id> | Delete \<id> |
+
+- GET is used to retrieve a resource 
+- PUT is used to change the state or update a resource which can be a file or block.
+- POST is used to create the resource.
+- DELETE is used to delete or remove that resource.
+<hr>
+
+## What is REST Api?
+
+```api
+When web services use REST architecture, they are called RESTful APIs or REST APIs.
+A REST API is a set of web addresses that responds with pure information, not a formatted web page.
+An API returns a JSON, which is common format.
+
+```
+
+
+
+
+
 
 #
 ```
