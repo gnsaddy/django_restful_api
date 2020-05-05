@@ -81,15 +81,15 @@ comes with a concise format for its Serializers, the ModelSerializer class. It�
 ```Python```
 ```
 from rest_framework import serializers
-from talk.models import Post
+from .models import Employee
 
 
-class PostSerializer(serializers.ModelSerializer):
+class EmployeeSerializer(serializers.ModelSerializer):
 
     class Meta:
-        model = Post
-        fields = ('id', 'author', 'text', 'created', 'updated')
-
+        model = Employee
+        fields = '__all__'
+#       fields = ('firstname', 'lastname')
 => Save this as serializers.py within the “src” directory.
 
 ```
